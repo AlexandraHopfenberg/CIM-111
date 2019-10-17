@@ -1,0 +1,130 @@
+
+body{
+
+background-color: #4F01D5;
+background: #4F01D5;
+background: -moz-radial-gradient(center, ##4F01D5 0%, #2388CB 36%, #144E75 100%);
+background: -webkit-radial-gradient(center, #4F01D5 0%, #2388CB 36%, #144E75 100%);
+background: radial-gradient(ellipse at center, #4F01D5 0%, #2388CB 36%, #144E75 100%);
+
+}
+
+#logo{
+	width:40vw;
+	height:7.2vw;
+	padding:0.3vw;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#nav{
+	background-color: white;
+	width: 100vw;
+	height: 1.3vw;
+	image-rendering: center;
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 0.25vw;
+	font-family: 'Neucha', bold
+}
+
+#main{
+	background-color: #AB5A1B;
+	width:80vw;
+	height:45vw;
+	position: absolute;
+	top: 12vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	background-image: url("../images/maxresdefault.jpg");
+	background-size: contain;
+}
+
+#Biography{
+	width: 30vw;
+	height: 13vw;
+	background-color: white;
+	margin:0.5vw;
+	color: #AB5A1B;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	position: absolute; 
+	left: 40vw;
+	top: 1vw;
+	font-size: 1.25em;
+	text-align: center;
+}	
+
+#PowersandAbilities{
+	width: 30vw;
+	height:16vw;
+	background-color: white;
+	margin:0.8vw;
+	color: #AB5A1B;
+	padding-left: 0.4vw;
+	padding-right: 0.4vw;
+	font-size: 1.2em;
+	padding-top: 2vw;
+	top: 15vw;
+	text-align: center;
+}
+
+#WorkExperience{
+	width: 18.5vw;
+	height: 9.3vw;
+	background-color: white;
+	margin:7vw;
+	color: #AB5A1B;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+	position: absolute; 
+	left: 52vw;
+	top: 6.5vw;
+	font-size: 1.25em;
+	text-align: center;
+}	
+
+
+#Appearances{
+	width: 20vw;
+	height: 17vw;
+	background-color: white;
+	margin:5vw;
+	color: #AB5A1B;
+	padding-left: 3vw;
+	padding-right: 1.5vw;
+	position: absolute; 
+	left: 50vw;
+	top: 18vw;
+	font-size: 1.25em;
+}
+table{
+	border-style: solid;
+	border: 2px;
+	border-color: black;
+}
+
+h1{
+	color: #4A01CA; 
+}
+
+header{
+
+background-color: #4A01CA;
+height: 8vw ;
+width: 100vw;
+
+}
+
+footer{
+
+	text-align: center;
+	background-color: DarkSlateBlue;
+	height: 4vw;
+	width: 80vw;
+	font-size: 1em;
+	position: absolute;
+	bottom: .25vw;
+}
