@@ -1,0 +1,255 @@
+/* DEVICES (MOBILE) */
+@media only screen and (min-width: 375px){
+
+
+body{
+	margin-top:20px;
+    background-color:#FFB795;
+}
+
+    header{
+        height:40px;
+    }
+
+
+    nav{
+        grid-area: nav;
+        background-color: pink;
+        text-align: center;
+        word-spacing: 20px;
+        padding-left: 12px;
+        font-size:.75em;
+    }
+
+    article{
+        grid-area: article;
+    }
+
+
+
+    .news{
+        background-color: white;
+        display: grid;
+    }
+
+
+	
+	.ABOUT{
+		padding: 10px;
+	}
+
+    .events{
+        background-image: url("../images/Map.png");
+        width: 200px;
+        height:250px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left:80px;
+    }
+ 	
+ 	.pic1{
+ 		background-image: url("../images/genMid.jpg");
+ 		background-repeat: no-repeat;
+ 		background-position: center center;
+		background-size: contain;
+		height: 400px; 
+ 	}
+
+    .facts{
+        text-align:center;
+    }
+
+#gallery1
+{
+    background-image: url("../images/35246826023_9d47442eb1_b.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+#gallery2
+{
+    background-image: url("../images/download-1.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+#gallery3
+{
+    background-image: url("../images/download.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+#gallery4
+{
+    background-image: url("../images/download-2.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+#gallery5
+{
+    background-image: url("../images/genMid.A10380467_2.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+    margin-top: 70px;
+}
+
+#gallery6
+{
+    background-image: url("../images/images-1.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+#gallery7
+{
+    background-image: url("../images/images-3.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+
+#gallery8
+{
+    background-image: url("../images/images-2.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+
+#gallery9
+{
+    background-image: url("../images/images-5.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+#gallery10
+{
+    background-image: url("../images/images.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    height:190px; 
+    padding: 30px;
+}
+
+    footer{
+        background-color: pink;
+        height:20px;
+    }
+
+   #cityofA{
+    background-image: url("../images/Sign.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin-right: 5px;
+    margin-left: 5px;
+    height:300px;
+   } 
+
+   .features{
+    text-align: center;
+   }
+
+   #pictures{
+margin-left:50px;
+   } 
+}
+
+/* Medium DEVICES (Tablets) */
+			@media only screen and (min-width: 500px) {
+
+				body{
+					background-color: #FFB5B3;
+				}
+
+                header{
+                    height: 100px;
+                }
+
+			
+
+                #pictures{
+                    padding-left:200px;
+                }
+
+                #cityofA{
+                margin-right: 200;    
+                height:300px;
+                }
+
+                footer{
+                    height:25px;
+                }
+
+                .events{
+            
+                    width: 400px;
+                   margin-left: 200px;
+                }
+			} /* close media query */
+
+
+
+/* LARGE DEVICES (large laptops and desktops) */
+			@media only screen and (min-width: 768px) {
+				body{
+					background-color: #EDE8F7;
+				}
+
+				.magicBox{
+	
+					width: 500px; /* cancels out original width of 300px and sets the new width to 500px; */
+				}
+
+                header{
+                    height:100px;
+                }
+
+                #cityofA{
+                margin-left:384px;
+                height:100px;
+                }
+
+                footer{
+                    height:25px;
+                }
+
+                .events{
+                    padding-left:500px;
+                    margin-left:650px;
+                }
+
+                #pictures{
+                    margin-left: 400px;
+                }
+			} /* close media query 768px */

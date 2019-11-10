@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Areas Example: From Scratch</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>HEADER</header>
+        <nav>NAVIGATION</nav>
+        <article>ARTICLE</article>
+        <aside>
+            <div class="news">
+                <div class="twitter"></div>
+                <div class="myspace"></div>
+            </div>
+            <div class="events">Event</div>
+        </aside>
+        <footer>FOOTER</footer>
+    </div><!-- closing container --> 
+ 
+
+<style>
+
+
+    .container{
+        display: grid;
+        grid-template-rows: 100px 25px 400px 200px 100px; 
+        grid-template-areas: "header header"
+                             "nav nav"
+                             "article aside"
+                             "footer footer";
+    }
+
+    header{
+        grid-area: header;
+        background-color: blue;
+    }
+
+    nav{
+        grid-area: nav;
+        background-color: pink;
+    }
+
+    article{
+        grid-area: article;
+        background-color: yellow;
+    }
+
+    aside{
+        grid-area: aside;
+        background-color: orange;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .news{
+        background-color: white;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .twitter{
+        background-color: red;
+    }
+
+
+    .myspace{
+        background-color: gray;
+    }
+
+
+    .events{
+        background-color: green;
+    }
+
+
+    footer{
+        grid-area: footer;
+        background-color: black;
+    }
+    
+</style>
+
+</body>
+</html>
