@@ -1,0 +1,35 @@
+.button1{
+	background-color: yellow;
+	border: none;
+	color: white;
+	padding: 15px 25px
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#changeBody{
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+}
+
+#panel2
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+
+
+nav{
+        grid-area: nav;
+        background-color: pink;
+        text-align: center;
+        word-spacing: 20px;
+        padding-left: 12px;
+        font-size:.75em;
+    }
+
+    footer{
+          height:25px;
+                }
